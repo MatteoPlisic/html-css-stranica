@@ -97,39 +97,54 @@
                                 commodi perferendis qui dolor eveniet consequatur
                                 ? Tenetur?</p>
 
-                        
-                            </div>
-                        
+                        </div>
                         <div class="project-image">
                             <img src="quarkus.png" alt="quarkus slika">
                         </div>
-                    
-                </div>
+                    </div>
 
                 </div>
+
 
             </div>
         </section>
         <!-- end projects section -->
-
-        <!-- about section -->
-        <section id="about">
-            <div class="about container">
-                <div class="col-left">
-                    <div class="about-img">
-                        <img src="index.jpeg" alt="">
-                    </div>
-                </div>
-                <div class="col-right">
-                    <h1 class="section-title">About <span>me</span></h1>
-                    <h2>Programer</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, eius minus deserunt digni
-                    ssimos in dolorem, ea officiis commodi odit adipisci esse ad sequi blanditiis iste nulla sit ab laudantium eaque.
-                    </p>
-                    <a href="#">Download resume</a>
-                </div>
-            </div>
-        </section>
-        <!-- end about section -->
-    </body>
+    <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
 </html>
