@@ -10,6 +10,31 @@
             crossorigin="anonymous"></script>
     </head>
     <body>
+        <!-- header -->
+        <section id="header">
+            <div class="header container">
+                <div class="nav-bar">
+                    <div class="brand">
+                        <a href="#hero"><h1><span>M</span>atteo <span>P</span>lišić</h1></a>
+                    </div>
+                    <div class="nav-list">
+                        <div class="hamburger">
+                            <div class="bar"></div></div>
+                            
+                        <ul style="list-style:none ;">
+                            <center>
+                            <li><a href="#hero" data-after="Home">Home</a></li>
+                            <li><a href="#services" data-after="Services">Vještine</a></li>
+                            <li><a href="#projects" data-after="Projects">Projects</a></li>
+                            <li><a href="#about" data-after="About">About</a></li>
+                            <li><a href="#contact" data-after="Contact">contact</a></li>
+                        </center>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end header -->
         <!-- Hero section -->
         <section id="hero">
             <div class="hero container">
@@ -17,7 +42,7 @@
                     <h1>Hello,<span></span></h1>
                     <h1>my name is <span></span></h1>
                     <h1>Matteo <span></span></h1>
-                    <a href="" type="button" class="cta">Portflio</a>
+                    <a href="#projects" type="button" class="cta">Portflio</a>
                 </div>
             </div>
         </section>
@@ -28,53 +53,45 @@
         <section id="services">
             <div class="service container">
                 <div class="service-top">
-                    <h1 class="section-title"> Serv<span>i</span>ces</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Dicta, unde. Quas aut error pariatur, rem,
-                        psa ducimus cumque illo sint tenetur nam adipisci nisi
-                        quia repudiandae hic animi? Asperiores, unde.
+                    <h1 class="section-title"> Vješt<span>i</span>ne</h1>
+                    <p>U svoje dvije godine obrazovanja, susreo sam se i učio slijedeće
+                        tehnologije:
                     </p>
                 </div>
                 <div class="service-bottom">
                 <div class="service-item">
-                    <div class="icon"> <i class="fa-solid fa-gears fa-3x"></i></div>
-                        <h2>WEb design</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing
-                            elit. Voluptates laborum
-                            eligendi possimus maiores quisquam exercitationem
-                            illum
-                            expedita, impedit est, voluptatum nesciunt ratione,
-                            quam sed
-                            quasi! Consequuntur ipsum facilis iure reiciendis.</p>
+                    <div class="icon"> <i class="fa-solid fa-gears fa-4x"></i></div>
+                    
+                        <h2>Frontend</h2>
+                        <p>
+                            Izrada web stranica i njihovo dizajniranje u slijedećim jezicima:
+                            <ul>
+                              <li>html </li>
+                              <li> css</li>
+                            </ul> 
+                        </p>
                     </div>
                 
                 <div class="service-item">
-                    <div class="icon"> <i class="fa-solid fa-gears fa-3x"></i></div>
-                        <h2>WEb design</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing
-                            elit. Voluptates laborum
-                            eligendi possimus maiores quisquam exercitationem
-                            illum
-                            expedita, impedit est, voluptatum nesciunt ratione,
-                            quam sed
-                            quasi! Consequuntur ipsum facilis iure reiciendis.</p>
+                    <div class="icon"> <i class="fa-solid fa-gears fa-4x"></i></div>
+                        <h2>Backend</h2>
+                        <p>Programiranje u Javi, Quarkus framework-u. Kreiranje aplikacije sa REST API-em.</p>
                     </div>
                 
                
                 <div class="service-item">
-                    <div class="icon"> <i class="fa-solid fa-gears fa-3x"></i></div>
-                        <h2>WEb design</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing
-                            elit. Voluptates laborum
-                            eligendi possimus maiores quisquam exercitationem
-                            illum
-                            expedita, impedit est, voluptatum nesciunt ratione,
-                            quam sed
-                            quasi! Consequuntur ipsum facilis iure reiciendis.</p>
+                    <div class="icon"> <i class="fa-solid fa-gears fa-4x"></i></div>
+                        <h2>Baze podataka</h2>
+                        <p>Rad sa PostgreSQL bazom podataka</p>
                     </div>
+                    <div class="service-item">
+                        <div class="icon"> <i class="fa-solid fa-gears fa-4x"></i></div>
+                            <h2>Ostalo</h2>
+                            <p>Programiranje u C-u i Pythonu i alat za verzioniranje Git.</p>
+                        </div>
                 </div>
             </div>
-        </div>
+        
         </section>
 
         <!--  end service-->
@@ -88,20 +105,21 @@
                 <div class="all-projects">
                     <div class="project-item">
                         <div class="project-info">
-                            <h1>Project 1</h1>
+                            <h1>Projekt u sklopu stručne prakse</h1>
                             <h2>quarkus project</h2>
-                            <p>Lorem ipsum dolor, sit amet con
-                                sectetur adipisicing elit.
-                                Earum temporibus blanditiis aliquid quibusdam qui unde
-                                totam in ab ipsam! Repellat, incidunt sit soluta
-                                commodi perferendis qui dolor eveniet consequatur
-                                ? Tenetur?</p>
+                            <p>
+                                Postavljanje linux okruženja za instalaciju (aplikacijski i proxy
+                                poslužitelj) i konfiguraciju Quarkus Java
+                                aplikacije. Kreiranje java aplikacije za čitanje, dodavanje, brisanje i
+                                modificiranje korisnika iz baze podataka, ulogiravanje u aplikaciju i
+                                postavljanje baze podataka.
+                            </p>
 
                         
                             </div>
                         
                         <div class="project-image">
-                            <img src="quarkus.png" alt="quarkus slika">
+                            <img src="quarkus.png" alt="quarkus slika"> 
                         </div>
                     
                 </div>
@@ -123,13 +141,69 @@
                 <div class="col-right">
                     <h1 class="section-title">About <span>me</span></h1>
                     <h2>Programer</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, eius minus deserunt digni
-                    ssimos in dolorem, ea officiis commodi odit adipisci esse ad sequi blanditiis iste nulla sit ab laudantium eaque.
+                    <p> 
+                     Student sam 2. godine računarstva na Tehničkom fakulteta u Rijeci željan novih znanja
+                     i vještina. Pretežito sam zainteresiran za web development no lagao bih ako bih rekao
+                     kako su mi ostale tehnologije značajno manje zanimljive.
+
                     </p>
-                    <a href="#">Download resume</a>
+                    <a href="Matteo Plišić-CV-F.pdf" class="cta"> Download resume</a>
                 </div>
             </div>
         </section>
         <!-- end about section -->
+
+        <!-- contact section -->
+        <center>
+        <section id="contact">
+            <div class="contact container">
+                <div><h1 class="section-title">CONTACT <span>INFO</span></h1></div>
+                <div class="contact-items">
+                    <div class="contact-item">
+                        <div class="icon"><i class="fa-solid fa-phone fa-3x"></i></div>
+                        <div class="contact-info">
+                            <h1>Phone</h1>
+                            <h2>+385 91 989 96 97</h2>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon"><i class="fa-solid fa-envelope-circle-check fa-3x"></i></div>
+                        <div class="contact-info">
+                            <h1>E-mail</h1>
+                            <h2>mplisic@riteh.hr</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </center>
+        <!-- end contact section -->
+
+        <!-- footer section -->
+
+        <section id="footer">
+            <div class="footer container">
+                <div class="brand">
+                    <h1><span>M</span>atteo <span>P</span>lišić</h1>
+                </div>
+                    <h2>Web developer for you</h2>
+                    
+                    <div class="social-icon">
+                        <div class="social-item">
+                       <a href="https://www.linkedin.com/in/matteo-pli%C5%A1i%C4%87-37943b228/"><i class="fa-brands fa-linkedin fa-4x"></i></a>
+                        </div>
+                        
+                        <div class="social-item">
+                           <a href="https://github.com/MatteoPlisic"> <i class="fa-brands fa-github fa-4x"></i></a>
+                        </div>
+                        
+                    </div>
+                
+                </div>
+            </div>
+        </section>
+        <!-- end footer section -->
+        <script src="app.js"></script>
     </body>
 </html>
